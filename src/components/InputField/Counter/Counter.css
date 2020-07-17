@@ -1,0 +1,12 @@
+.countB {
+  height: 33px;
+  width: 28px;
+  padding: 0;
+  border: none;
+  color: #33a0ff;
+  border-radius: 0;
+  background-color: rgb(241, 242, 248);
+}
+.middleNum {
+  color: black;
+}

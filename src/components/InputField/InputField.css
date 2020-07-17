@@ -1,9 +1,9 @@
 .email-Email {
-  border: 2px solid #f2f2f5;
+  border: 2px solid #ececec;
   padding: 8px 50px 8px 8px;
 }
 .email-Email::placeholder {
-  color: #b8b4b4;
+  color: #b4b4b4;
 }
 .email-Email-medium {
   padding: 12px 70px 12px 12px;
@@ -38,6 +38,6 @@
 .select-select-outline {
   background-color: #ffffff;
   outline: none;
-  border: 3px solid #fafafb;
+  border: 2px solid #ececec;
   padding-left: 7px;
 }

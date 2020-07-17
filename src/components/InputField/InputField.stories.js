@@ -10,13 +10,19 @@ storiesOf("Input Fields", module)
   .add("Email Large", () => <InputField large type="Email" />)
 
   //select
-  .add("Select Outline", () => <SelectField outline type="select" label="Select" />)
-
-  .add("Select Outline Medium", () => <SelectField outline medium label="Select" type="select" />)
-
-  .add("Select Outline Large", () => <SelectField outline large label="Select" type="select" />)
+  .add("Select Outline", () => (
+    <SelectField outline type="select" label="Select" />
+  ))
+  .add("Select Outline Medium", () => (
+    <SelectField outline medium label="Select" type="select" />
+  ))
+  .add("Select Outline Large", () => (
+    <SelectField outline large label="Select" type="select" />
+  ))
   .add("Select", () => <SelectField type="select" label="Select" />)
-
-  .add("Select Medium", () => <SelectField medium label="Select" type="select" />)
-
-  .add("Select Large", () => <SelectField large label="Select" type="select" />)
+  .add("Select Medium", () => (
+    <SelectField medium label="Select" type="select" />
+  ))
+  .add("Select Large", () => (
+    <SelectField large label="Select" type="select" />
+  ));
