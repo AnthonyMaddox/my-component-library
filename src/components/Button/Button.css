@@ -1,6 +1,7 @@
 button {
   border-radius: 2px;
   padding: 15px 40px;
+  letter-spacing: 1px;
 }
 
 .button-primary {
@@ -94,7 +95,7 @@ button {
   color: white;
   border: 1.5px solid rgb(43, 43, 43);
 }
-button:hover {
+.button-default:hover {
   background-color: black;
   border: 1.5px solid black;
   color: white;
@@ -108,7 +109,6 @@ button:hover {
   color: rgb(43, 43, 43);
   border: none;
 }
-
 
 .button-large {
   padding: 20px 60px;
