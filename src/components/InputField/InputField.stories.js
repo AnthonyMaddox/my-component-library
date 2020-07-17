@@ -3,6 +3,7 @@ import { storiesOf } from "@storybook/react";
 import InputField from "./InputField";
 import SelectField from "./SelectField";
 
+
 storiesOf("Input Fields", module)
   //email
   .add("Email", () => <InputField type="Email" />)
