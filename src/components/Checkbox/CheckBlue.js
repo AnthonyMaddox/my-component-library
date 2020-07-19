@@ -1,15 +1,11 @@
 import React from "react";
 import "./Checkbox.css";
 
-const Checkbox = (props) => {
+const CheckBlue = (props) => {
   let classList = [];
-  /*let types = ["Checkbox"];
-  if (types.includes(props.type)) {
-    classList.push(`checkbox-${props.type}`);
-  */
   
   if (props.black) {
-    classList.push("innerBlackbox");
+    classList.push("innerBluebox");
   }
   if (props.noDisplay) {
    classList.push("noDisplay");
@@ -18,10 +14,9 @@ const Checkbox = (props) => {
    classList.push("innerBlueBox");
  }
   return (
-    <div className="outerBlackBox">
+    <div className="outerBlueBox">
       <div className={classList.join(" ")}>&#x2713;</div>
     </div>
   );
 };
-
-export default Checkbox;
+export default CheckBlue;

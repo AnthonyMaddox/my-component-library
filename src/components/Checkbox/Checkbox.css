@@ -1,8 +1,64 @@
-.blackbox {
-  border: 2px solid black;
-  color: grey;
+.outside {
+  display: inline;
 }
 
-input[type="checkbox"] {
-  border: 5px solid black;
+.innerBlackbox {
+  border: 3px solid black;
+  color: white;
+  background-color: black;
+  height: 14px;
+  width: 12px;
+  border-radius: 4px;
+  margin-top: -3px;
+  margin-left: -2px;
+  padding-left: 1px;
+}
+.noDisplay {
+  opacity: 0;
+}
+.outerBlackBox {
+  border: 3px solid black;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  color: white;
+}
+/*blue*/
+
+.innerBlueBox {
+  border: 3px solid #33a0ff;
+  color: white;
+  background-color: #33a0ff;
+  height: 15px;
+  width: 12px;
+  border-radius: 4px;
+  margin-top: -3px;
+  margin-left: -2px;
+  padding-left: 1px;
+}
+.outerBlueBox {
+  border: 3px solid #33a0ff;
+  height: 15px;
+  width: 15px;
+  border-radius: 4px;
+  color: white;
+}
+.outside {
+}
+
+.checkWords {
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.5px;
+}
+.innerWordsbox {
+  border: 2px solid black;
+  border-bottom: none;
+  color: white;
+  background-color: black;
+  height: 15px;
+  width: 13px;
+  border-radius: 4px;
+
+  padding-left: 3px;
+  padding-right: 1px;
 }
