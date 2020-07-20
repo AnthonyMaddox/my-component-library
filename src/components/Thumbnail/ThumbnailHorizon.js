@@ -2,7 +2,7 @@ import React from "react";
 import "./Thumbnail.css";
 import cart from "./cart_2.png";
 import heart from "./hearts.png";
-const Thumbnail = (props) => {
+const ThumbnailHorizon = (props) => {
   let classList = [];
   let types = ["thumbnail"];
   if (types.includes(props.type)) {
@@ -11,15 +11,14 @@ const Thumbnail = (props) => {
   if (props.image) {
     classList.push("image");
   }
-  if (props.horizon) {
-    classList.pop("thumb-outer");
-    classList.push("displayHorizon");
+  if (props.imageBose) {
+     classList.push("imageBose")
   }
 
   return (
-    <div className="thumb-outer">
+    <div className="thumb-outer-horizon">
       <div className={classList.join(" ")}></div>
-      <div className="belowImage">
+      <div className="belowImage-horizon">
         <div className="shoppingIcon">
           <img src={heart} />
         </div>
@@ -27,7 +26,7 @@ const Thumbnail = (props) => {
           <img src={cart} />
         </div>
       </div>
-      <div className="bottomText">
+      <div className="bottomText-horizon">
         <div className="thumb-title">{props.label}</div>
         <div className="stars">
           &#9733; &#9733; &#9733; &#9733;{" "}
@@ -40,4 +39,4 @@ const Thumbnail = (props) => {
     </div>
   );
 };
-export default Thumbnail;
+export default ThumbnailHorizon;
