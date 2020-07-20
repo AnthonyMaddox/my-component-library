@@ -6,13 +6,15 @@
 
 ###### About
 
+#### Requirements
+
 ###### Instructions
 
 ###### Credits
 
 ## About
 
-###### This repository is a library of react compnents developed in isolation using Storybook. React uses a combination of Javascript, CSS and HTML to create webpages through functional components and classes. Tgis repository was created for the General Assembly Software Engineering Immersive program.
+###### This repository is a library of react compnents developed in isolation using Storybook. React uses a combination of Javascript, CSS and HTML to create webpages through functional components and classes. This repository was created for the General Assembly Software Engineering Immersive program.
 
 ## Requirements
 
