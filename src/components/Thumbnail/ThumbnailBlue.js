@@ -1,8 +1,8 @@
 import React from "react";
 import "./Thumbnail.css";
-import cart from "./cart_2.png";
-import heart from "./hearts.png";
-const Thumbnail = (props) => {
+import cart from "./cart_white.png";
+import heart from "./hearts_white.png";
+const ThumbnailBlue = (props) => {
   let classList = [];
   let types = ["thumbnail"];
   if (types.includes(props.type)) {
@@ -15,10 +15,10 @@ const Thumbnail = (props) => {
     <div className="thumb-outer">
       <div className={classList.join(" ")}></div>
       <div className="belowImage">
-        <div className="shoppingIcon">
+        <div className="shoppingIconBlue">
           <img src={heart} />
         </div>
-        <div className="heartIcon">
+        <div className="heartIconBlue">
           <img src={cart} />
         </div>
       </div>
@@ -35,4 +35,4 @@ const Thumbnail = (props) => {
     </div>
   );
 };
-export default Thumbnail;
+export default ThumbnailBlue;
