@@ -8,7 +8,7 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 .thumb-outer:hover {
-   background-color:rgb(243, 243, 243);
+  background-color: rgb(243, 243, 243);
 }
 .thumb-outer-horizon {
   height: 150px;
@@ -20,7 +20,7 @@
   padding: 10px;
 }
 .thumb-outer-horizon:hover {
-   background-color:rgb(243, 243, 243);
+  background-color: rgb(243, 243, 243);
 }
 .thumb-outer-horizon {
   height: 150px;
@@ -31,40 +31,87 @@
   padding: 10px;
 }
 .imageHorizon {
-   height: 110px;
-   width: 170px;
-   background-image: url(./macbook.png);
-   background-size: cover;
-   margin: 20px 0;
- }
+  height: 110px;
+  width: 170px;
+  background-image: url(./macbook.png);
+  background-size: cover;
+  margin: 20px 0;
+}
+/*inline*/
+.thumb-outer-inline {
+  height: 200px;
+  width: 700px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
+.imageInline {
+  height: 200px;
+  width: 500px;
+  background-image: url(./bose.png);
+  background-size: cover;
+  margin: 20px 0;
+  padding-left: 0;
+  border: 2px solid rgb(243, 243, 243);
+}
+.hot {
+  background-color: rgb(255, 127, 127);
+  color: white;
+  font-size: 12px;
+  padding: 2px 5px;
+  margin: 3px;
+}
+.inlineRev {
+  color: rgb(230, 230, 230);
+  margin-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.inlineBlue {
+  color: #33a0ff;
+  margin-left: 10px;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+.bottomText-inline {
+   margin-left: 10px;
+   margin-top: -30px;
+}
+.description {
+   font-size: 12px;
+}
+.shopButtons {
+   display: flex;
+}
+.like {
+   margin-left: 20px;
+}
 /*bose*/
 
 .bottomText-horizon-bose {
-   margin-left: 20px;
+  margin-left: 20px;
   margin-top: -40px;
   font-size: 15px;
 }
 .imageBose {
-   height: 140px;
-   width: 200px;
-   background-image: url(./bose.png);
-   background-size: cover;
-   margin: 20px 0;
- }
- .imageBose:hover {
-    opacity: 1;
- }
- .thumb-outer-horizon-bose {
-   height: 150px;
-   width: 350px;
-   display: flex;
-   align-items: center;
-   font-family: Arial, Helvetica, sans-serif;
-   padding: 10px;
- }
- 
-
-
+  height: 140px;
+  width: 200px;
+  background-image: url(./bose.png);
+  background-size: cover;
+  margin: 20px 0;
+}
+.imageBose:hover {
+  opacity: 1;
+}
+.thumb-outer-horizon-bose {
+  height: 150px;
+  width: 350px;
+  display: flex;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 10px;
+}
 
 /*image*/
 .image {
@@ -144,10 +191,10 @@ img {
   align-items: center;
 }
 .bottomText-horizon {
-   margin-left: 20px;
-margin-top: -40px;
-font-size: 15px;
- }
+  margin-left: 20px;
+  margin-top: -40px;
+  font-size: 15px;
+}
 
 .thumb-title {
   margin: 22px 0;
