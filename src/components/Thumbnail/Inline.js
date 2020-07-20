@@ -8,7 +8,6 @@ const Inline = (props) => {
   if (props.imageHorizon) {
     classList.push("imageHorizon");
   }
-
   if (props.imageBose) {
     classList.push("imageBose");
   }
@@ -34,8 +33,13 @@ const Inline = (props) => {
         </div>
         <p className="description">{props.description}</p>
         <div className="shopButtons">
-        <div className="shopping"><IconShopping type="shopping" /></div>  
-            <div className="like"> <Icon type="heart" small /></div>
+          <div className="shopping">
+            <IconShopping type="shopping" />
+          </div>
+          <div className="like">
+            {" "}
+            <Icon type="heart" small />
+          </div>
         </div>
       </div>
     </div>

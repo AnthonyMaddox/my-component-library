@@ -1,27 +1,31 @@
-[![General Assembly Logo](https://camo.githubusercontent.com/1a91b05b8f4d44b5bbfb83abac2b0996d8e26c92/687474703a2f2f692e696d6775722e636f6d2f6b6538555354712e706e67)](https://generalassemb.ly/education/web-development-immersive)
+# README
 
-# My First Component Library
+## My First Component Library
 
-We have provided the starter code for you. From here, you'll be creating your very first component library with Storybook!
+### Contents
 
-## Prerequisites
+###### About
 
-- Intro to React & React Components
-- Storybook
+###### Instructions
 
-## Instructions
+###### Credits
 
-1.  Fork and clone this repository.
-1.  Change into the new directory.
-1.  Install dependencies.
-1.  Fulfill the listed requirements.
+## About
+
+###### This repository is a library of react compnents developed in isolation using Storybook. React uses a combination of Javascript, CSS and HTML to create webpages through functional components and classes. Tgis repository was created for the General Assembly Software Engineering Immersive program.
 
 ## Requirements
 
-Follow along as we create a new component library with different styles of buttons.
+###### All you need is a Phone, Tablet or Computer with a mouse/keyboard and browser installed.
 
-## [License](LICENSE)
+## Instructions
 
-1.  All content is licensed under a CC­BY­NC­SA 4.0 license.
-1.  All software code is licensed under GNU GPLv3. For commercial use or
-    alternative licensing, please contact legal@ga.co.
+###### After loading the page, you can click on a module in the left hand navigation menu. Within each module are specifically labeled components that correspond to the bouncer Adobe XD mock up.
+
+## Credits
+
+###### All designs for components and pictures were taken from the Adobe XD bouncer mock up. All knowledge of React and Storybook gained under the study of Noah Clark and Allison Johnson.
+
+#### For more information on React visit: https://reactjs.org/
+
+#### For more information on Storybook visit: https://storybook.js.org/

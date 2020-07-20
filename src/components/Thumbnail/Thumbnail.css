@@ -75,17 +75,17 @@
   letter-spacing: 1px;
 }
 .bottomText-inline {
-   margin-left: 10px;
-   margin-top: -30px;
+  margin-left: 10px;
+  margin-top: -30px;
 }
 .description {
-   font-size: 12px;
+  font-size: 12px;
 }
 .shopButtons {
-   display: flex;
+  display: flex;
 }
 .like {
-   margin-left: 20px;
+  margin-left: 20px;
 }
 /*bose*/
 
