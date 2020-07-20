@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.76aa3df5.chunk.css",
+    "main.js": "/main.b346d0ff65d3a1eea029.bundle.js",
+    "main.css.map": "/static/css/main.76aa3df5.chunk.css.map",
+    "main.js.map": "/main.b346d0ff65d3a1eea029.bundle.js.map",
+    "runtime~main.js": "/runtime~main.b346d0ff65d3a1eea029.bundle.js",
+    "runtime~main.js.map": "/runtime~main.b346d0ff65d3a1eea029.bundle.js.map",
+    "vendors~main.js": "/vendors~main.b346d0ff65d3a1eea029.bundle.js",
+    "vendors~main.js.map": "/vendors~main.b346d0ff65d3a1eea029.bundle.js.map",
+    "iframe.html": "/iframe.html",
+    "precache-manifest.8777cd7999d2e02e80eca70f79555f4c.js": "/precache-manifest.8777cd7999d2e02e80eca70f79555f4c.js",
+    "service-worker.js": "/service-worker.js",
+    "static/media/Thumbnail.css": "/static/media/macbook.c0a117bc.png",
+    "static/media/Icon.css": "/static/media/hearts.c307014c.png",
+    "static/media/cart_white.png": "/static/media/cart_white.0311a4ad.png",
+    "static/media/hearts_white.png": "/static/media/hearts_white.36c7a74d.png",
+    "vendors~main.b346d0ff65d3a1eea029.bundle.js.LICENSE.txt": "/vendors~main.b346d0ff65d3a1eea029.bundle.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "runtime~main.b346d0ff65d3a1eea029.bundle.js",
+    "vendors~main.b346d0ff65d3a1eea029.bundle.js",
+    "static/css/main.76aa3df5.chunk.css",
+    "main.b346d0ff65d3a1eea029.bundle.js"
+  ]
+}
