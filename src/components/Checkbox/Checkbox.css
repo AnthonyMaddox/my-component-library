@@ -43,8 +43,7 @@
   width: 15px;
   border-radius: 4px;
   color: white;
-}
-.outside {
+  cursor: pointer;
 }
 
 .checkWords {

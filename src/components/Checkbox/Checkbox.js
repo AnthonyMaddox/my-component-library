@@ -28,6 +28,7 @@ class Checkbox extends Component {
       </div>
     );
   }
+  //trying to add click function to toggle noDisplay class css
   toggleChecked = () => {
     console.log("hello");
     if (this.state.classList.includes("noDisplay") === true) {

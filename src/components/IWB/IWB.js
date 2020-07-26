@@ -6,6 +6,8 @@ const IWB = (props) => {
   if (types.includes(props.type)) {
     classList.push(`IWB-${props.type}`);
   }*/
+  //need to use e.target.value and set state 
+  // convert to a class!!! set state and include something to hold the value of input.value
   if (props.large) {
     classList.push("large");
   }

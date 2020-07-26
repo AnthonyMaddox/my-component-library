@@ -4,9 +4,6 @@ import "./Checkbox.css";
 const CheckBlue = (props) => {
   let classList = [];
 
-  if (props.black) {
-    classList.push("innerBluebox");
-  }
   if (props.noDisplay) {
     classList.push("noDisplay");
   }
