@@ -4,5 +4,5 @@ import Counter from "./Counter";
 
 storiesOf("Counter", module)
 .add("Counter", () => (
-   <Counter type="counter" />
+   <Counter step={1} max={10} min={0}type="counter" />
  ))

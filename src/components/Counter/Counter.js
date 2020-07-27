@@ -11,8 +11,32 @@ class Counter extends Component {
     //Define initial state of component
     this.state = {
       count: 0,
+      max: props.max,
+      min: props.min,
+      step: props.step,
     };
   }
+  increaseCount = () => {
+    let newCount = this.state.count + this.state.step;
+    if (this.state.count < this.state.max) {
+      //setState takes an argument of the updated value pairs in state
+      this.setState({
+        count: newCount,
+      });
+    } else {
+      this.setState({
+        count: this.state.count,
+      });
+    }
+  };
+  decreaseCount = () => {
+    let newCount = this.state.count - this.state.step;
+    if (this.state.count > this.state.min) {
+      this.setState({
+        count: newCount,
+      });
+    }
+  };
 
   //constructor
   render() {
@@ -30,19 +54,7 @@ class Counter extends Component {
     );
   }
   //event handlers
-  increaseCount = () => {
-    let newCount = this.state.count + 1;
-    //setState takes an argument of the updated value pairs in state
-    this.setState({
-      count: newCount,
-    });
-  };
-  decreaseCount = () => {
-    let newCount = this.state.count - 1;
-    this.setState({
-      count: newCount,
-    });
-  };
+
   //end of class
 }
 export default Counter;
