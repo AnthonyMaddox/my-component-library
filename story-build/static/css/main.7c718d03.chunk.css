@@ -141,6 +141,7 @@ button {
   width: 15px;
   border-radius: 4px;
   color: white;
+  cursor: pointer;
 }
 /*blue*/
 
@@ -161,8 +162,7 @@ button {
   width: 15px;
   border-radius: 4px;
   color: white;
-}
-.outside {
+  cursor: pointer;
 }
 
 .checkWords {
@@ -581,4 +581,4 @@ img {
 }
 
 
-/*# sourceMappingURL=main.76aa3df5.chunk.css.map*/
+/*# sourceMappingURL=main.7c718d03.chunk.css.map*/
