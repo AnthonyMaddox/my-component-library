@@ -53,10 +53,5 @@ class Counter extends Component {
       </div>
     );
   }
-  //event handlers
-
-  //end of class
 }
 export default Counter;
-
-//<h1>{this.props.type}{this.state.count}</h1>
