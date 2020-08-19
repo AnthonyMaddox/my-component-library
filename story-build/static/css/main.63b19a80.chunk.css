@@ -239,7 +239,7 @@ button {
   color: #33a0ff;
   border: none;
   padding: 14px 0 0 125px;
-  background-image: url(static/media/hearts.c307014c.png);
+  background-image: url(/static/media/hearts.c307014c.png);
   background-repeat: no-repeat;
   background-position: left 15px bottom 17px;
 }
@@ -580,5 +580,4 @@ img {
   text-decoration: line-through;
 }
 
-
-/*# sourceMappingURL=main.7c718d03.chunk.css.map*/
+/*# sourceMappingURL=main.63b19a80.chunk.css.map*/
